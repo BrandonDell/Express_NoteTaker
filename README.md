@@ -1,2 +1,40 @@
 # Express_Note_Taker
-Note Taker Application
+This application will help users quickly produce a note to help users keep organized and stay on task. 
+ 
+## Motivation
+The motivation to create this note taker is so that the user will be able to write and save notes so that they can organize their thoughts and keep track of tasks that need to be completed. 
+
+## What does it solve and provide?
+This application will help display a note taker that will start and complete task and notes that will help users organize their work and personal efforts. 
+
+## Features
+This task list maker will allow users to create new tasks or notes that will be saved and listed until completed/deleted. 
+
+## License
+MIT
+
+## Installation 
+Clone the respository to the Github listed below. 
+
+Command Line Installation:
+Nodemon: npm install nodemon
+
+## Run  
+Command Line: npm run test
+    
+## Questions
+    
+If you would like to reference my GitHub profile please click on https://github.com/BrandonDell
+
+GitHub Express_NoteTaker Project: https://github.com/BrandonDell/Express_NoteTaker
+
+Deployed Webiste: 
+
+If you have any further questions please feel free to email me at bdellcioppia@gmail.com
+
+## Image
+![DellCioppia](./images/workingSvg.png)
+
+## Credits
+-UCF Coding Bootcamp
+-Tutor Chris assisted debuging and help with deploying Thursday 5/2/24
