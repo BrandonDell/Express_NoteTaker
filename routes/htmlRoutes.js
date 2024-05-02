@@ -38,16 +38,16 @@ notes.delete('/:notes_id', (req, res) => {
     });
 });
 
-// POST Route for a new UX/UI note
+// POST Route for a new note
 notes.post('/', (req, res) => {
   console.log(req.body);
 
-  const { noteTitle, noteTextArea } = req.body;
+  const { title, text } = req.body;
 
   if (req.body) {
     const newNote = {
-      noteTitle,
-      noteTextArea,
+      title,
+      text,
       notes_id: uuidv4(),
     };
 

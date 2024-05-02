@@ -14,7 +14,11 @@ app.use(express.static('public'));
 
 //  a route that will serve up the public foler into index.html (or use: `app.get('/paths', and then public/paths.html` page)
 app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, 'public/index.html'))
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
+
+app.get('/', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
 app.listen(PORT, () =>
