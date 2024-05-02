@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3001;
 // middleware for paring JSON and form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/api', api);
+app.use('/', api);
 
 app.use(express.static('public'));
 
@@ -25,4 +25,4 @@ app.listen(PORT, () =>
   console.log(`Server started on port http://localhost:${PORT}`)
 );
 
-
+module.exports = app;
