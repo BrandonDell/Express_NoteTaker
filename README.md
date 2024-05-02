@@ -28,13 +28,15 @@ If you would like to reference my GitHub profile please click on https://github.
 
 GitHub Express_NoteTaker Project: https://github.com/BrandonDell/Express_NoteTaker
 
-Deployed Webiste: 
+GitHub Live Site Link: https://brandondell.github.io/Express_NoteTaker/
+
+Deployed Render Website: https://express-notetaker-1.onrender.com
 
 If you have any further questions please feel free to email me at bdellcioppia@gmail.com
 
 ## Image
-![DellCioppia](./images/workingSvg.png)
-
+![DellCioppia](./images/Render%20Success.png)
+![DellCioppia](./images/Rendered%20Site.png)
 ## Credits
 -UCF Coding Bootcamp
 -Tutor Chris assisted debuging and help with deploying Thursday 5/2/24
